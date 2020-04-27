@@ -49,10 +49,10 @@
                 <End Type="canteen.Menu" Multiplicity="1" Role="MenuPrincipal"/>
                 <ReferentialConstraint>
                     <Principal Role="MenuPrincipal">
-                        <PropertyRef Name="BookingID"/>
+                        <PropertyRef Name="MenuID"/>
                     </Principal>
                     <Dependent Role="BookingDependent">
-                        <PropertyRef Name="BookingID"/>
+                        <PropertyRef Name="MenuID"/>
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
