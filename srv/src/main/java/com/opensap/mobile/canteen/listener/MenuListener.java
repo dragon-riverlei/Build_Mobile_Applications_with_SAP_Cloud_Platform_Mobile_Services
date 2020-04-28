@@ -1,5 +1,7 @@
 package com.opensap.mobile.canteen.listener;
 
+import java.math.BigDecimal;
+
 import com.sap.cloud.server.odata.*;
 
 public class MenuListener extends com.sap.cloud.server.odata.DefaultEntityListener {
@@ -22,6 +24,12 @@ public class MenuListener extends com.sap.cloud.server.odata.DefaultEntityListen
         // Shared code for beforeCreate / beforeUpdate.
         com.opensap.mobile.canteen.proxy.Menu entity = (com.opensap.mobile.canteen.proxy.Menu)entityValue;
         allowUnused(entity);
+        // Check if the price of a menu is below 100 to generate a business rule
+        // validation
+        if (entity.getPrice().compareTo(new BigDecimal(100.0)) == 1) {
+            throw DataServiceException
+                    .validationError("Menu price needs to be under 100. Value was: " + entity.getPrice());
+        }
     }
 
     @Override public void beforeCreate(EntityValue entityValue) {
