@@ -9,7 +9,7 @@ Sample initial data for file BookingSet.json:
 ''' JSON
 [
     {
-        "BookingDate": "2020-04-27T14:52:06.565Z",
+        "BookingDate": "2020-04-28T15:07:28.624Z",
         "BookingID": "101",
         "MenuID": "301",
         "Price": "12345678.12",
@@ -17,7 +17,7 @@ Sample initial data for file BookingSet.json:
         "User": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     },
     {
-        "BookingDate": "2020-04-27T14:52:06.565Z",
+        "BookingDate": "2020-04-28T15:07:28.624Z",
         "BookingID": "102",
         "MenuID": "302",
         "Price": "98765432.98",
@@ -57,7 +57,7 @@ Sample initial data for file MenuSet.json:
         "Price": "12345678.12",
         "Sides": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
         "Soup": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-        "dateOfLunch": "2020-04-27T14:52:06.565Z",
+        "dateOfLunch": "2020-04-28T15:07:28.624Z",
         "kcalForMain": 123,
         "veggie": false
     },
@@ -70,7 +70,7 @@ Sample initial data for file MenuSet.json:
         "Price": "98765432.98",
         "Sides": null,
         "Soup": null,
-        "dateOfLunch": "2020-04-27T14:52:06.565Z",
+        "dateOfLunch": "2020-04-28T15:07:28.624Z",
         "kcalForMain": null,
         "veggie": null
     }

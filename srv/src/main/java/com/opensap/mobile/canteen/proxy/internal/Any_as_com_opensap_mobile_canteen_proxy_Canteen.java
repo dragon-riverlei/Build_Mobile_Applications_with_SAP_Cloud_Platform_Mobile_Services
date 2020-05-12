@@ -6,7 +6,7 @@ public abstract class Any_as_com_opensap_mobile_canteen_proxy_Canteen
 {
     public static com.opensap.mobile.canteen.proxy.Canteen cast(final Object value)
     {
-        //# /usr/sap/ljs/xs-temp/2851a564-817f-44c4-8f13-9827e56293a4/output/target/tmp/proxy-com.opensap.mobile.canteen.csdl.xs:1037:35 => /usr/sap/ljs/xs-temp/xs-home/templates/List.xs:88:16 => /usr/sap/ljs/xs-temp/xs-home/templates/Any.as.xs:7:12
+        //# /usr/sap/ljs/xs-temp/2d058d74-33bc-4841-9375-9e0bf80ede75/output/target/tmp/proxy-com.opensap.mobile.canteen.csdl.xs:1037:35 => /usr/sap/ljs/xs-temp/xs-home/templates/List.xs:88:16 => /usr/sap/ljs/xs-temp/xs-home/templates/Any.as.xs:7:12
         if (value instanceof com.opensap.mobile.canteen.proxy.Canteen)
         {
             final com.opensap.mobile.canteen.proxy.Canteen var_value = ((com.opensap.mobile.canteen.proxy.Canteen)value);

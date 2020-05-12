@@ -2,7 +2,7 @@
 applications:
   - buildpack: sap_java_buildpack
     name: CanteenService
-    path: target/odata-service-0.0.1.war
+    path: target/odata-service-0.1.1.war
     env:    
       SET_LOGGING_LEVEL: '{odata: INFO, sap.xs.console: TRACE, sap.xs.odata: TRACE}'
       TARGET_RUNTIME: tomee7

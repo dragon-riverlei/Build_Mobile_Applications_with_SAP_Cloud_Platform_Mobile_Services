@@ -1,6 +1,6 @@
 [
     {
-        "BookingDate": "2020-04-27T14:52:06.566Z",
+        "BookingDate": "2020-04-28T15:07:28.624Z",
         "BookingID": "101",
         "MenuID": "301",
         "Price": "12345678.12",
@@ -8,7 +8,7 @@
         "User": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     },
     {
-        "BookingDate": "2020-04-27T14:52:06.566Z",
+        "BookingDate": "2020-04-28T15:07:28.624Z",
         "BookingID": "102",
         "MenuID": "302",
         "Price": "98765432.98",

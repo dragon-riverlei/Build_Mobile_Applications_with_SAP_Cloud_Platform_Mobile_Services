@@ -10,7 +10,7 @@ public abstract class CanteenServiceMetadata
 
     private static com.sap.cloud.server.odata.csdl.CsdlDocument resolve()
     {
-        //# /usr/sap/ljs/xs-temp/2851a564-817f-44c4-8f13-9827e56293a4/output/target/tmp/proxy-com.opensap.mobile.canteen.csdl.xs:551:12
+        //# /usr/sap/ljs/xs-temp/2d058d74-33bc-4841-9375-9e0bf80ede75/output/target/tmp/proxy-com.opensap.mobile.canteen.csdl.xs:551:12
         com.opensap.mobile.canteen.proxy.internal.CanteenServiceFactory.registerAll();
         com.opensap.mobile.canteen.proxy.internal.CanteenServiceMetadataParser.parsed.setGeneratedProxies(true);
         return com.opensap.mobile.canteen.proxy.internal.CanteenServiceMetadataParser.parsed;
